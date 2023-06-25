@@ -1,0 +1,37 @@
+{
+  "name": "crypter-url-safe",
+  "version": "1.0.0",
+  "description": "URL safe JS library for encrypting and decrypting",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitei-io/nodejs-crypter.git"
+  },
+  "keywords": [
+    "cypher",
+    "encyrption",
+    "decryption",
+    "encoded",
+    "crypter",
+    "url",
+    "safe",
+    "crypto",
+    "cipher",
+    "aes-256",
+    "aes256",
+    "aes-256-gcm"
+  ],
+  "author": "kaitei-io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaitei-io/nodejs-crypter/issues"
+  },
+  "homepage": "https://github.com/kaitei-io/nodejs-crypter#readme"
+}

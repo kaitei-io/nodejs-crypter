@@ -59,5 +59,9 @@ assert.throws(invalidKey, Error);
 const missingData = () => cypher.decrypt();
 assert.throws(missingData, Error);
 
+// Test 12: Key length is wrong throws error
+const wrongKeyLength = () => new Crypter('123');
+assert.throws(wrongKeyLength, Error);
+
 
 console.log('All tests passed!');

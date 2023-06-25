@@ -2,7 +2,7 @@ const crypto = require('crypto');
 
 class Crypter {
     constructor(key, ivLength = 64) {
-        if (!key || typeof key !== 'string') {
+        if (!key || typeof key !== 'string' || key.length !== 64) {
             throw new Error('Key is required');
         }
         this.key = Buffer.from(key, 'hex');
